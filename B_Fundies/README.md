@@ -4,7 +4,7 @@ This folder contains mini-projects that act as recipes for different use cases i
 
 
 ## Projects so far
-1. [Irrigation prediction pipeline](01_irrigation/): basic feed-forward network trained on a tabular dataset containing both numerical and categorical features. Tricks used include adjusting class weights and kaiming initialization.
+1. [Irrigation prediction pipeline](01_irrigation_need/): basic feed-forward network trained on a tabular dataset containing both numerical and categorical features. Tricks used include adjusting class weights and kaiming initialization.
 
 
 ## Technical details
