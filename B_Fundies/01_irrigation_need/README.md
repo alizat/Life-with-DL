@@ -11,10 +11,4 @@
 - After that a few tricks are employed to improve prediction performance:
     - adjusting class weights to deal with class imbalance (one of the class has significantly fewer instances that the other two classes)
     - kaiming initialization: helps avoid gradients vanishing or exploding; although this wasn't an issue here, it did help improve the results
-    - (coming soon) target-encoding of categorical variables
-    - (coming soon) early-stopping to avoid over-training, so the prediction performance would be the best it could
-
-## Notes
-- The script will use GPU if available (`torch.cuda.is_available()`).
-- It drops rows with missing values for simplicity.
-- Adjust hyperparameters (batch size, lr, epochs) inside the script as needed.
+    - early-stopping to avoid over-training, so the prediction performance would be the best it could
