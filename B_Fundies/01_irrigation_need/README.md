@@ -12,3 +12,4 @@
     - adjusting class weights to deal with class imbalance (one of the class has significantly fewer instances that the other two classes)
     - kaiming initialization: helps avoid gradients vanishing or exploding; although this wasn't an issue here, it did help improve the results
     - early-stopping to avoid over-training, so the prediction performance would be the best it could
+- At the end of the notebook, a quick check is done to make sure there is no overfitting issue.
