@@ -19,3 +19,4 @@ As the name of the folder suggests, it contains some straightforward "Hello Worl
 This folder contains snippets for the fundamental types of deep learning projects (feedforward networks, sequential data, image-based applications, etc.).
 
 - [Irrigation prediction pipeline](B_Fundies/01_irrigation_need/): basic feed-forward network trained on a tabular dataset containing both numerical and categorical features. Tricks used include adjusting class weights and kaiming initialization.
+- [Electricity consumption prediction](B_Fundies/02_electricity_consumption/): time-series problem where we attempt to predict future electricity consumption for 300+ clients. Different sequential prediction models (LSTM, GRU, Exponential Smoothing, Prophet, N-BEATS, LightGBM, Ensemble of LightGBM, Toto) are built and contrasted against classic models (ARIMA, Holts-Winter).
